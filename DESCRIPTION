@@ -1,0 +1,19 @@
+Package: c3.263
+Title: A collection of functions to help with MATH263
+Version: 0.0.0.1
+Authors@R: 
+    person(given = "Harlan",
+           family = "Connor",
+           role = c("aut", "cre"),
+           email = "sghconn2@liv.ac.uk",
+    )
+Description: A collection of functions to help with MATH263
+License: use_mit_license()
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+  tools,
+  tcltk,
+  readxl,
