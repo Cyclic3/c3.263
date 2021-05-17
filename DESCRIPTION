@@ -7,8 +7,9 @@ Authors@R:
            role = c("aut", "cre"),
            email = "sghconn2@liv.ac.uk",
     )
-Description: A collection of functions to help with MATH263
-License: use_mit_license()
+Description: These functions are aimed at students of the University of Liverpool's MATH263 course,
+             BUT ARE NOT OFFICIALLY PART OF THAT COURSE! These functions may not work perfectly, so check the output yourself to be sure.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
@@ -17,3 +18,4 @@ Imports:
   tools,
   tcltk,
   readxl,
+  utils
