@@ -147,6 +147,7 @@ read.interactive <- function () {
     return()
   filename <- paste0(random_alnum(), ".Rds")
   base::saveRDS(data, filename)
+  # We use an absolute path to ensure that different scripts can use the same code
   printline(sprintf("You can load your data again with c3.263::read.data(\"%s\")", normalizePath(filename)))
   data
 }
