@@ -31,7 +31,7 @@ prompt_datafile <- function() {
 #' @return The response
 prompt_q <- function(q) {
   cat(q)
-  readLines("stdin", 1)
+  readLines(stdin(), 1)
 }
 #' Prints a line, without standard R formatting
 #'
